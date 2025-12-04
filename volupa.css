@@ -1,0 +1,39 @@
+body {
+    background-color: #f1ecec;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+header nav:first-child {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav:first-child div {
+    display: flex;
+    gap: 20px;
+}
+
+header nav:nth-child(2) {
+    background-color: white;
+}
+
+header nav:nth-child(2) img {
+    height: 40px;
+}
+
+header nav:nth-child(2) ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
