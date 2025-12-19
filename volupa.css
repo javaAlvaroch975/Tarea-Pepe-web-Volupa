@@ -1,11 +1,10 @@
 body {
-    background-color: #f1ecec;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
 /* Header con navs*/
-
 header nav {
     display: flex;
     align-items: center;
@@ -88,7 +87,7 @@ section:nth-of-type(2) {
     grid-template-rows: auto auto auto;
     gap: 20px;
     padding: 40px;
-    background: #fff;
+    background-color: white;
     margin: 40px auto;
     max-width: 1200px;
 }
@@ -100,7 +99,6 @@ section:nth-of-type(2) article:nth-child(4) { grid-area: 3 / 2 / 4 / 3; }
 
 section:nth-of-type(2) article {
     position: relative;
-    border-radius: 8px;
     overflow: hidden;
     min-height: 350px;
 }
@@ -159,7 +157,6 @@ section:nth-of-type(2) article a {
     text-transform: uppercase;
 }
 
-/* Women's articles (3 y 4) - texto a la derecha */
 section:nth-of-type(2) article:nth-child(3)::after,
 section:nth-of-type(2) article:nth-child(4)::after {
     left: auto;
@@ -177,7 +174,7 @@ section:nth-of-type(2) article:nth-child(4) a {
     text-align: right;
 }
 
-/* SECTION SECURED PAYMENTS */
+/* SECTION 3 */
 section:nth-of-type(3) {
     text-align: center;
     background: #fff;
@@ -197,7 +194,41 @@ section:nth-of-type(3) article:not(:last-child) {
     border-right: 1px solid #e0e0e0;
 }
 
+/* SECTION 4 */
+section:nth-of-type(4) {
+    background: url('./imagenes/section4/modelo hombre.png') no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 
 
+section:nth-of-type(4) button { 
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    margin: 20px auto 0 auto;
+    display: block;
+}
 
 
+section:nth-of-type(4) h2 { 
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+
+section:nth-of-type(4) h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+}
